@@ -1,0 +1,17 @@
+.side-list {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  .side-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  .side-list li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .side-list li:hover {
+    color: #1da1f2;
+  }
+  

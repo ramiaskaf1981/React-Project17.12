@@ -1,0 +1,31 @@
+/* Ensure the app fills the entire screen */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height:auto;
+  width: auto;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: auto; /* Ensures content doesn't overflow the viewport */
+}
+
+.tweet-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f9fc;
+  overflow-y: auto; /* Adds scroll if the content overflows */
+}
+
+.side-list {
+  height: 100%; /* Ensures the sidebar fills the full height */
+  overflow-y: auto; /* Adds scroll for long side lists */
+}

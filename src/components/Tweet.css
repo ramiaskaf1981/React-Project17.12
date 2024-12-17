@@ -1,0 +1,22 @@
+.tweet {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .tweet-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  button {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #ddd;
+  }
+  
